@@ -1,0 +1,25 @@
+name: Get Latest ClubCard Prices
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *"
+
+jobs:
+  clubcards:
+    name: clubcards
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: oven-sh/setup-bun@v1
+
+      - run: bun install
+      - run: bun index.ts
+
+      - name: Commit and Push the changes
+        uses: mikeal/publish-to-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_NAME: "main"
