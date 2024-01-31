@@ -1,8 +1,6 @@
 import { Parser } from "./src/Parser";
 import { getTodayDate } from "./utils/date";
 
-const parser = new Parser();
-
 const categories = [
   "top-picks",
   "frozen",
@@ -17,11 +15,12 @@ const categories = [
 ];
 
 for (const category of categories) {
+  const parser = new Parser();
   const products = await parser.getProducts(category);
   const today = getTodayDate();
-  const fileName = category === "top-picks" ? "" : category;
+  const fileName = category === "top-picks" ? "" : `-${category}`;
   await Bun.write(
-    `./output/${today}-${fileName}.json`,
+    `./output/${today}${fileName}.json`,
     JSON.stringify(products, null, 2)
   );
 }

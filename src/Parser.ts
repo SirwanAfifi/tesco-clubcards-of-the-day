@@ -3,14 +3,14 @@ import { Product } from "./Product";
 
 const URL = "https://www.tesco.com/groceries/en-GB/buylists/clubcard-prices";
 
-// https://www.tesco.com/groceries/en-GB/buylists/clubcard-prices/frozen#frozen-food
 export class Parser {
   private products: Product[] = [];
 
-  public async getProducts(category: string = "top-picks"): Promise<Product[]> {
+  public async getProducts(category: string): Promise<Product[]> {
     const lastPageNumber = await this.getLastPageNumber(category);
     for (let pageNumber = 1; pageNumber <= lastPageNumber; pageNumber++) {
       const pageProducts = await this.getProductsFromPage(category, pageNumber);
+      console.log(pageProducts);
       this.products.push(...pageProducts);
     }
     return this.products;
@@ -21,6 +21,7 @@ export class Parser {
     pageNumber: number
   ): Promise<Product[]> {
     const url = `${URL}/${category}?page=${pageNumber}`;
+    console.log(`Loading ${url}`);
     const $ = await this.loadContent(url);
 
     const items = $(".product-list--list-item");
@@ -42,7 +43,7 @@ export class Parser {
     return products.get();
   }
 
-  private async loadContent(url: string = URL) {
+  private async loadContent(url: string) {
     const response = await fetch(url);
     const html = await response.text();
     return cheerio.load(html);
