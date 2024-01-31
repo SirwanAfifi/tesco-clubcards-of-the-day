@@ -1,13 +1,27 @@
 import { Parser } from "./src/Parser";
+import { getTodayDate } from "./utils/date";
 
 const parser = new Parser();
 
-const products = await parser.getProducts();
+const categories = [
+  "top-picks",
+  "frozen",
+  "fresh",
+  "beer-wine-spirits",
+  "snacks-and-treats",
+  "household",
+  "food-cupboard",
+  "bakery",
+  "health-beauty-and-baby",
+  "online-only-offers",
+];
 
-const date = new Intl.DateTimeFormat("en-GB").format(new Date());
-const fileName = date.replace(/\//g, "-");
-
-await Bun.write(
-  `./output/${fileName}-data.json`,
-  JSON.stringify(products, null, 2)
-);
+for (const category of categories) {
+  const products = await parser.getProducts(category);
+  const today = getTodayDate();
+  const fileName = category === "top-picks" ? "" : category;
+  await Bun.write(
+    `./output/${today}-${fileName}.json`,
+    JSON.stringify(products, null, 2)
+  );
+}

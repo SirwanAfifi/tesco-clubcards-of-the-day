@@ -1,23 +1,26 @@
 import * as cheerio from "cheerio";
 import { Product } from "./Product";
 
-const URL =
-  "https://www.tesco.com/groceries/en-GB/buylists/clubcard-prices/top-picks";
+const URL = "https://www.tesco.com/groceries/en-GB/buylists/clubcard-prices";
 
+// https://www.tesco.com/groceries/en-GB/buylists/clubcard-prices/frozen#frozen-food
 export class Parser {
   private products: Product[] = [];
 
-  public async getProducts(): Promise<Product[]> {
-    const lastPageNumber = await this.getLastPageNumber();
+  public async getProducts(category: string = "top-picks"): Promise<Product[]> {
+    const lastPageNumber = await this.getLastPageNumber(category);
     for (let pageNumber = 1; pageNumber <= lastPageNumber; pageNumber++) {
-      const pageProducts = await this.getProductsFromPage(pageNumber);
+      const pageProducts = await this.getProductsFromPage(category, pageNumber);
       this.products.push(...pageProducts);
     }
     return this.products;
   }
 
-  private async getProductsFromPage(pageNumber: number): Promise<Product[]> {
-    const url = `${URL}?page=${pageNumber}`;
+  private async getProductsFromPage(
+    category: string,
+    pageNumber: number
+  ): Promise<Product[]> {
+    const url = `${URL}/${category}?page=${pageNumber}`;
     const $ = await this.loadContent(url);
 
     const items = $(".product-list--list-item");
@@ -45,8 +48,8 @@ export class Parser {
     return cheerio.load(html);
   }
 
-  private async getLastPageNumber(): Promise<number> {
-    const $ = await this.loadContent();
+  private async getLastPageNumber(category: string): Promise<number> {
+    const $ = await this.loadContent(`${URL}/${category}`);
     const pageNumbers: number[] = [];
 
     $(".pagination-btn-holder a").each(function () {
