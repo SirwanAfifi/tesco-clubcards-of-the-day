@@ -24,6 +24,7 @@ export class Parser {
     const products = items
       .find(".product-details--wrapper:has(.promotions-offer-content)")
       .map((index, item) => ({
+        id: $(item).find("a").attr("href")?.split("/").pop() || "",
         title: $(item).find("h3").text(),
         price: $(item)
           .siblings()
