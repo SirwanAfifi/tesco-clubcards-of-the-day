@@ -1,0 +1,37 @@
+[
+  {
+    "id": "252937387",
+    "title": "Hovis Best Of Both Medium White Bread 750G",
+    "price": "£1.25",
+    "clubCardPrice": "£1.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/c5c7655b-3941-4c67-ae34-182ec0c9f7e6/791dbb47-2e0c-4888-8977-0c3ac4c7f063_996767138.jpeg?h=225&w=225"
+  },
+  {
+    "id": "253294471",
+    "title": "Hovis Best Of Both Thick White Bread 750G",
+    "price": "£1.25",
+    "clubCardPrice": "£1.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/bdc47ab4-6ceb-4fa2-8f27-bff23cc23507/3599a45c-1732-4a3e-941b-363d0c470802_1209146162.jpeg?h=225&w=225"
+  },
+  {
+    "id": "261331312",
+    "title": "Tesco Finest 4 Extra Fruity Hot Cross Buns",
+    "price": "£1.60",
+    "clubCardPrice": "Any 2 for £2.50",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/608837e7-b4de-4eb8-9517-6977b6e552c8/35b8ba40-dd7c-475e-92d4-1e73c1cd1792.jpeg?h=225&w=225"
+  },
+  {
+    "id": "286671239",
+    "title": "Tesco Finest 4 Apple & Cinnamon Hot Cross Buns",
+    "price": "£1.60",
+    "clubCardPrice": "Any 2 for £2.50",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/2c0b5a84-48b5-4c68-b692-2fd26a5ee8fd/c704c835-09f2-4356-9d17-431958361b51.jpeg?h=225&w=225"
+  },
+  {
+    "id": "305038777",
+    "title": "Tesco Finest 4 St Clements Hot Cross Buns",
+    "price": "£1.60",
+    "clubCardPrice": "Any 2 for £2.50",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/22ee84bc-38da-4164-bc97-37d187bee7b5/56ba9d19-e0a5-4c06-83fb-f3be1ae89904.jpeg?h=225&w=225"
+  }
+]
