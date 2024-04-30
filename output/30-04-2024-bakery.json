@@ -1,0 +1,51 @@
+[
+  {
+    "id": "303351247",
+    "title": "Warburtons 5 Pack Bagels Plain",
+    "price": "£1.50",
+    "clubCardPrice": "£1.35",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/e942d57b-8b16-41d8-bfa2-276724228215/bb7bce91-30bc-4b37-8cb5-983f93195853.jpeg?h=225&w=225"
+  },
+  {
+    "id": "311269120",
+    "title": "Mr Kipling Deliciously Good Chocolate Cake Slices X6",
+    "price": "£2.50",
+    "clubCardPrice": "£1.25",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/39b85d12-462d-43f1-8cc6-71476dba0abd/24ebcf85-8962-4e66-a2f0-2543f3fa405e.jpeg?h=225&w=225"
+  },
+  {
+    "id": "311440470",
+    "title": "Mr Kipling Deliciously Good Angel Cake Slices X6",
+    "price": "£2.50",
+    "clubCardPrice": "£1.25",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/14efdf2f-0aea-453d-9b37-50e6e6688be4/aec459c0-403a-4a91-975b-befb0b837858.jpeg?h=225&w=225"
+  },
+  {
+    "id": "251938134",
+    "title": "Soreen Original Malt Loaf 260G",
+    "price": "£1.60",
+    "clubCardPrice": "£1.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/ceaf2a0e-65aa-44af-a5b0-a406b0ceb089/66ff8a09-2401-4d4b-a464-847422aa1c71.jpeg?h=225&w=225"
+  },
+  {
+    "id": "305838815",
+    "title": "Mission Deli Original Wraps Super Soft 6 Pack 367G",
+    "price": "£1.55",
+    "clubCardPrice": "£1.35",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/835c173f-d691-409e-810a-62df50192ed5/b2fb58c4-4498-45be-9c8b-f3a5af538131.jpeg?h=225&w=225"
+  },
+  {
+    "id": "305836662",
+    "title": "Mission Deli Wheat & White Wraps 6 Pack 367G",
+    "price": "£1.55",
+    "clubCardPrice": "£1.35",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/2af48526-a013-4024-826c-09df5a9b947d/64912e61-bace-48d8-bfbe-17d3e172beee.jpeg?h=225&w=225"
+  },
+  {
+    "id": "304371279",
+    "title": "Warburtons Half And Half Medium Bread 800G",
+    "price": "£1.35",
+    "clubCardPrice": "Any 3 for 2",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/44ed8c0a-d019-44da-bd9f-eb3e61a8cb56/ea22395a-f172-4315-89dc-9580cd818c74.jpeg?h=225&w=225"
+  }
+]
