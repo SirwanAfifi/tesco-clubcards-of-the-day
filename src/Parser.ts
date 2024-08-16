@@ -26,20 +26,34 @@ export class Parser {
 
     const items = $(".product-list--list-item");
     const products = items
-      .find(".product-details--wrapper:has(.promotions-offer-content)")
-      .map((index, item) => ({
-        id: $(item).find("a").attr("href")?.split("/").pop() || "",
-        title: $(item).find("h3").text(),
-        price: $(item)
+      .find(".product-details--wrapper")
+      .filter((index, item) => {
+        return (
+          $(item).find(
+            "div[class^='styles__StyledPromotionsWithClubcardPriceContainer-']"
+          ).length > 0
+        );
+      })
+      .map((index, item) => {
+        const clubCardPrice = $(item)
+          .find("div[class^='styled__ClubcardPriceLogo-sc-']")
           .siblings()
-          .find(".buybox-container p:nth-child(1)")
-          .text(),
-        clubCardPrice: $(item)
-          .find(".promotions-offer-content")
+          .eq(0)
+          .find("p:nth-child(1)")
           .text()
-          .split(" Clubcard Price")[0],
-        image: $(item).siblings().find("picture img").attr("src") || "",
-      }));
+          .split(" Clubcard Price")[0];
+
+        return {
+          id: $(item).find("a").attr("href")?.split("/").pop() || "",
+          title: $(item).find("h3").text(),
+          price: $(item)
+            .siblings()
+            .find(".buybox-container p:nth-child(1)")
+            .text(),
+          clubCardPrice,
+          image: $(item).siblings().find("picture img").attr("src") || "",
+        };
+      });
     return products.get();
   }
 

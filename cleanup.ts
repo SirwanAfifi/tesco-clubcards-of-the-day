@@ -1,28 +1,15 @@
 import { readdir, unlink } from "fs/promises";
 import { join } from "path";
 
-const getLast7DaysOfMonth = () => {
+const getDate7DaysAgo = () => {
   const date = new Date();
-  const lastDayOfMonth = new Date(date.getFullYear(), date.getMonth() + 1, 0);
-  const firstDayOfLast7Days = new Date(lastDayOfMonth);
-  firstDayOfLast7Days.setDate(lastDayOfMonth.getDate() - 6);
-
-  const dates = [];
-  for (
-    let d = firstDayOfLast7Days;
-    d <= lastDayOfMonth;
-    d.setDate(d.getDate() + 1)
-  ) {
-    dates.push(
-      new Intl.DateTimeFormat("en-GB").format(new Date(d)).replace(/\//g, "-")
-    );
-  }
-  return dates;
+  date.setDate(date.getDate() - 7);
+  return new Intl.DateTimeFormat("en-GB").format(date).replace(/\//g, "-");
 };
 
 const deleteOldFiles = async () => {
   const outputDir = "./output";
-  const last7Days = getLast7DaysOfMonth();
+  const date7DaysAgo = getDate7DaysAgo();
 
   try {
     const files = await readdir(outputDir);
@@ -31,7 +18,7 @@ const deleteOldFiles = async () => {
       const filePath = join(outputDir, file);
       const fileDate = file.match(/\d{2}-\d{2}-\d{4}/)?.[0];
 
-      if (fileDate && !last7Days.includes(fileDate)) {
+      if (fileDate && fileDate < date7DaysAgo) {
         try {
           await unlink(filePath);
           console.log(`Deleted file: ${filePath}`);

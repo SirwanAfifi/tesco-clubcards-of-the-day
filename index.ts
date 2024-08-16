@@ -17,6 +17,10 @@ const categories = [
 for (const category of categories) {
   const parser = new Parser();
   const products = await parser.getProducts(category);
+  if (products.length === 0) {
+    console.log(`No products found for category: ${category}`);
+    continue;
+  }
   const today = getTodayDate();
   const fileName = category === "top-picks" ? "" : `-${category}`;
   await Bun.write(
