@@ -1,0 +1,163 @@
+[
+  {
+    "id": "313376986",
+    "title": "Wall's Twister Mini Pineapple Ice Cream Lollies 6x50ml",
+    "price": "£2.50",
+    "clubCardPrice": "£1.75",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/6089a1fc-2d86-4b46-9f20-2625c6a9f4c0/afb98e27-1f08-42bf-9013-380db207aa9c.jpeg?h=225&w=225"
+  },
+  {
+    "id": "303067716",
+    "title": "Cornetto Classic Ice Cream Cones 6x90ml",
+    "price": "£3.50",
+    "clubCardPrice": "£2.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/274b98c3-962d-4e67-88e3-bcfb5d08b4fc/9fab1f1f-aca0-42a6-b9aa-461b805666e6.jpeg?h=225&w=225"
+  },
+  {
+    "id": "303067048",
+    "title": "Cornetto Strawberry Ice Cream Cones 6x90ml",
+    "price": "£3.50",
+    "clubCardPrice": "£2.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/0f0ba940-4ff6-41fa-aeff-215eae947454/67c5bb3b-3f83-4e5a-9c12-1f8406910f62.jpeg?h=225&w=225"
+  },
+  {
+    "id": "304790641",
+    "title": "Haagen-Dazs Vanilla Ice Cream Collection Mini Cups 4X95ml",
+    "price": "£5.40",
+    "clubCardPrice": "£3.75",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/f1d1e790-9bc7-4994-ace8-3d94ed19aecc/8eb02e33-c833-45b3-90cd-d11186d89e97.jpeg?h=225&w=225"
+  },
+  {
+    "id": "303106061",
+    "title": "Haagen-Dazs Fruit Mini Cups Ice Cream 4X95ml",
+    "price": "£5.40",
+    "clubCardPrice": "£3.75",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/857bf830-b45c-4c76-89a8-8dbff8ab5c1d/bb5718f9-9306-4b22-8d51-83f6f26096bd.jpeg?h=225&w=225"
+  },
+  {
+    "id": "303106101",
+    "title": "Haagen-Dazs Caramel Mini Cups 4 X 95Ml",
+    "price": "£5.40",
+    "clubCardPrice": "£3.75",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/dd35e176-f13b-4f8e-a8da-ff68c7e80a54/2ad46ba3-5b1d-4cb6-b6e6-2ccb128c45be.jpeg?h=225&w=225"
+  },
+  {
+    "id": "307735640",
+    "title": "Magnum Double Gold Caramel Billionaire Ice Cream Sticks 3x85ml",
+    "price": "£4.00",
+    "clubCardPrice": "£3.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/6ae5db42-cdc6-4815-8e81-a05ff90fcecd/f458bfd1-6b17-48e7-b661-662e45b4f44f.jpeg?h=225&w=225"
+  },
+  {
+    "id": "315965827",
+    "title": "Magnum Euphoria White Chocolate, Pink Lemonade Ice Cream Sticks 3x90ml",
+    "price": "£4.00",
+    "clubCardPrice": "£3.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/117f3b48-1d29-4088-b069-46fd5bf5ec01/7300488b-efd2-4221-9f3f-48a4419fd494.jpeg?h=225&w=225"
+  },
+  {
+    "id": "315833581",
+    "title": "Ben & Jerry's Cookie Dough Vanilla Ice Cream Tub 465ml",
+    "price": "£5.20",
+    "clubCardPrice": "£3.75",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/be92c11a-e088-4dce-9554-99aead0bea56/1342cbf3-369c-4216-934e-ec9ba9c02a2b.jpeg?h=225&w=225"
+  },
+  {
+    "id": "305980150",
+    "title": "Ben & Jerry's Chocolate Fudge Brownie Ice Cream Tub 465ml",
+    "price": "£5.20",
+    "clubCardPrice": "£3.75",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/87def779-b13e-4c18-a7c6-55458887a00d/9b25bef0-422c-4b9f-9184-0218f6082326.jpeg?h=225&w=225"
+  },
+  {
+    "id": "305941986",
+    "title": "Ben & Jerry's Phish Food Chocolate & Marshmallow Ice Cream Tub 465ml",
+    "price": "£5.20",
+    "clubCardPrice": "£3.75",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/35b0f2d4-8662-45ed-8629-c76ec7f7ff03/57cbe1b4-7bc8-4334-82d9-688be20e84de.jpeg?h=225&w=225"
+  },
+  {
+    "id": "310144275",
+    "title": "Ben & Jerry's Caramel Brownie Party Ice Cream Tub 465ml",
+    "price": "£5.20",
+    "clubCardPrice": "£3.75",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/583371f9-f310-43b9-bb89-30abba1e8b68/7b60fbce-7da1-41cc-b40c-411ce6466fb2.jpeg?h=225&w=225"
+  },
+  {
+    "id": "303004233",
+    "title": "Nuii Salted Caramel Macadamia Ice Cream Sticks 3X90ml",
+    "price": "£4.00",
+    "clubCardPrice": "£2.50",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/8b385745-2ce4-4250-888f-2dbe1f57500b/10e8e38d-fc57-4ec0-a35b-40debdf283db.jpeg?h=225&w=225"
+  },
+  {
+    "id": "316077454",
+    "title": "Carte D'or Deluxe New York Cheesecake Ice Cream Tub 825ml",
+    "price": "£4.50",
+    "clubCardPrice": "£3.50",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/304ae697-f8ce-425b-9091-56c9c51286d8/1344b981-c2c1-44e7-9ed1-35469233b2d1.jpeg?h=225&w=225"
+  },
+  {
+    "id": "315957175",
+    "title": "Carte D'or Deluxe Tiramisu Ice Cream Tub 825ml",
+    "price": "£4.50",
+    "clubCardPrice": "£3.50",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/26739709-0e02-4ef6-ae6f-63a428fab833/bc339691-2409-4a27-9e66-7b623d23612c.jpeg?h=225&w=225"
+  },
+  {
+    "id": "316058727",
+    "title": "Nuii Caramelised Salted Almond & New Zealand Honey Ice Cream Sticks 3x90ml",
+    "price": "£4.00",
+    "clubCardPrice": "£2.50",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/4791db9d-626c-4e97-bc37-78095117677c/0d8b67ca-cf01-4436-9717-31badbd38315.jpeg?h=225&w=225"
+  },
+  {
+    "id": "313748633",
+    "title": "Wall's Calippo Mini Orange & Lemon-Lime Ice Lollies 5x80ml",
+    "price": "£2.50",
+    "clubCardPrice": "£2.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/748a2090-cbda-4217-bfe2-e6ab7201dfa1/2f84d2c5-0c60-4da5-bf5b-cffcbfdc7295.jpeg?h=225&w=225"
+  },
+  {
+    "id": "299386177",
+    "title": "Rowntrees Watermelon Lolly 4X73ml",
+    "price": "£2.50",
+    "clubCardPrice": "£2.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/ab7d000f-6332-451d-87b4-3c9b92f55937/b69c2a51-5b5e-4db4-9e56-539018cddb5e.jpeg?h=225&w=225"
+  },
+  {
+    "id": "305970778",
+    "title": "Rowntrees Fruit Stack 4X70ml",
+    "price": "£2.50",
+    "clubCardPrice": "£2.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/2d392d48-f123-4762-8771-70bbc1b72f64/a2c6b67e-d833-4fbf-ae41-8dc2a4ce1c9b.jpeg?h=225&w=225"
+  },
+  {
+    "id": "315445207",
+    "title": "Rowntrees Fruit Push Ups Strawberry & Tropical Ice Lollies 4x90ml",
+    "price": "£2.50",
+    "clubCardPrice": "£1.75",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/c6b7a5f5-3412-43ed-8971-0562e576cc0d/ee086297-ea63-41d7-85ac-b35a6e87bdb9.jpeg?h=225&w=225"
+  },
+  {
+    "id": "315755431",
+    "title": "Wall's Twister Berrylicious Ice Lollies 4x70ml",
+    "price": "£2.50",
+    "clubCardPrice": "£2.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/597a26f7-852c-432b-bd72-e50ff24424ad/554b62b7-80ac-449f-a20f-007ff0f116c6.jpeg?h=225&w=225"
+  },
+  {
+    "id": "296120036",
+    "title": "Birds Eye Alphabites 456G",
+    "price": "£2.60",
+    "clubCardPrice": "£2.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/3f4133ad-4198-48aa-82c1-c53e63fcb65f/71c87f32-3ffd-4195-a290-ce37e0501677.jpeg?h=225&w=225"
+  },
+  {
+    "id": "316660282",
+    "title": "Birds Eye 18 Breaded Omega 3 Fish Fingers 504g",
+    "price": "£4.20",
+    "clubCardPrice": "£3.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/ddc395a9-0bab-4d6d-87c2-c91f938b138d/0ea72a1d-d5f9-470c-b792-8b396a90eee5.jpeg?h=225&w=225"
+  }
+]
