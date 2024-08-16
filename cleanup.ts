@@ -1,12 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
 
-const getTodayDate = () => {
-  const date = new Intl.DateTimeFormat("en-GB").format(new Date());
-  const today = date.replace(/\//g, "-");
-  return today;
-};
-
 const getDateOneWeekAgo = () => {
   const date = new Date();
   date.setDate(date.getDate() - 7);
