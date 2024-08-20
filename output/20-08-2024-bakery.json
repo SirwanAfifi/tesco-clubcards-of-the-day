@@ -1,0 +1,44 @@
+[
+  {
+    "id": "287853207",
+    "title": "Warburtons Thin Bagels Cinnamon & Raisin 6 Pack",
+    "price": "£1.75",
+    "clubCardPrice": "£1.35",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/e1ad6ca1-07b5-444f-953d-82c6afb51798/528c2071-1a2c-4a5c-a9e7-6ad5449c93c1.jpeg?h=225&w=225"
+  },
+  {
+    "id": "250774576",
+    "title": "New York Bakery Plain Bagels 5 Pack",
+    "price": "£1.90",
+    "clubCardPrice": "£1.25",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/b04f5986-b431-48ca-8594-f3850a6b3c40/58c565b2-bf93-4af2-bd7f-b7d0d2d7deb5.jpeg?h=225&w=225"
+  },
+  {
+    "id": "313949539",
+    "title": "St Pierre 4 Burger Buns",
+    "price": "£2.50",
+    "clubCardPrice": "£2.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/2d9d02ed-42c3-449f-a678-205fba992e22/6edb440e-c6eb-4bdf-8558-29827dce5b6e_1672685987.jpeg?h=225&w=225"
+  },
+  {
+    "id": "316444193",
+    "title": "Hovis Premium Burger Buns 4 Pack",
+    "price": "£1.60",
+    "clubCardPrice": "£1.15",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/5d75d225-f89d-4e9a-b6ef-de2fc1b15a1f/f1b6d69b-7bb8-4103-8d8d-da54b18e0341.jpeg?h=225&w=225"
+  },
+  {
+    "id": "316634832",
+    "title": "Hovis Premium Hot Dog Rolls 4 Pack",
+    "price": "£1.60",
+    "clubCardPrice": "£1.15",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/980e39ff-8a28-482f-afb0-4dea08d1534f/fce77ebd-b170-4bc4-8bee-ab0ab2233b47.jpeg?h=225&w=225"
+  },
+  {
+    "id": "253294471",
+    "title": "Hovis Best Of Both Thick White Bread 800G",
+    "price": "£1.25",
+    "clubCardPrice": "£1.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/bdc47ab4-6ceb-4fa2-8f27-bff23cc23507/3599a45c-1732-4a3e-941b-363d0c470802_1209146162.jpeg?h=225&w=225"
+  }
+]
