@@ -1,0 +1,37 @@
+[
+  {
+    "id": "300644286",
+    "title": "Warburton 4 Protein Thin Bagels",
+    "price": "£1.75",
+    "clubCardPrice": "£1.25",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/5212a692-edcd-47c8-951d-89936a946aa4/c6f149e1-1f97-4350-a659-54b18ebe534f_567568290.png?h=225&w=225"
+  },
+  {
+    "id": "287853081",
+    "title": "Warburtons Thin Bagels Plain 6 Pack",
+    "price": "£1.75",
+    "clubCardPrice": "£1.35",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/ef733f3f-0192-43e8-b753-1abb701b5513/6e63195c-7a34-4ae9-b505-436002dc5a24_947356081.png?h=225&w=225"
+  },
+  {
+    "id": "283390081",
+    "title": "Cadbury Chocolate Mini Roll 5 Pack",
+    "price": "£1.95",
+    "clubCardPrice": "£1.25",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/bee09e77-7af3-4667-a251-2432c7750be8/350e3fe8-15c8-49d5-a2aa-a2340d22ce21_792174285.png?h=225&w=225"
+  },
+  {
+    "id": "296983673",
+    "title": "Mr Kipling Angel Slice 6 Pack",
+    "price": "£2.45",
+    "clubCardPrice": "£1.50",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/b1cd7064-8bf1-40e2-8056-999c3ce503ce/ceb7bacf-1dc1-4844-b88d-0aca49da23b5_1564423694.png?h=225&w=225"
+  },
+  {
+    "id": "296983713",
+    "title": "Mr Kipling Lemon Slice 6 Pack",
+    "price": "£2.45",
+    "clubCardPrice": "£1.50",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/a8403df0-00f7-406f-b197-8dd02c760fe5/2a8ae7ff-025b-4140-aa81-26a37253cf81_128409525.png?h=225&w=225"
+  }
+]
