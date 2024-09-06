@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 import { Product } from "./Product";
 
-const URL = "https://www.tesco.com/groceries/en-GB/shop";
+const URL = "https://www.tesco.com/groceries/en-GB/buylists/clubcard-prices";
 
 export class Parser {
   private products: Product[] = [];
