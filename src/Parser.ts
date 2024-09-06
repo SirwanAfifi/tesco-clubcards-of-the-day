@@ -52,7 +52,12 @@ export class Parser {
             .find(".buybox-container p:nth-child(1)")
             .text(),
           clubCardPrice,
-          image: $(item).siblings().find("picture img").attr("src") || "",
+          image:
+            $(item)
+              .siblings()
+              .find("picture img")
+              .attr("srcset")
+              ?.split(" ")[0] || "",
         };
       });
     return products.get();
