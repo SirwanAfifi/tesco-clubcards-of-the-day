@@ -1,0 +1,51 @@
+[
+  {
+    "id": "273349129",
+    "title": "Warburtons Brown Sandwich Thins 6 Pack",
+    "price": "£1.40",
+    "clubCardPrice": "£1.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/2799765e-d179-4429-887b-274fc1db7beb/6092a9c3-01c2-4772-92d2-4f43be81a849.jpeg?h=225&w=225"
+  },
+  {
+    "id": "268319311",
+    "title": "Warburtons White Sandwich Thins 6 Pack",
+    "price": "£1.40",
+    "clubCardPrice": "£1.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/df3c3c90-cacb-4d53-b3e2-b831f05f72b8/7be83afa-7152-4dd3-a7aa-d943485b1a3f.jpeg?h=225&w=225"
+  },
+  {
+    "id": "305038541",
+    "title": "Warburtons Half & Half Thins 6 Pack",
+    "price": "£1.40",
+    "clubCardPrice": "£1.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/0be61696-0efa-4813-9d6f-3ed423d5117c/3aee64b9-b261-4288-a9b5-424e314e91d3.jpeg?h=225&w=225"
+  },
+  {
+    "id": "300644286",
+    "title": "Warburton 4 Protein Thin Bagels",
+    "price": "£1.75",
+    "clubCardPrice": "£1.25",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/7bac5d74-bb7e-4e18-92c4-61ed9416e1f9/f8548346-1d72-44f2-8b30-e89c2ad0cbb1.jpeg?h=225&w=225"
+  },
+  {
+    "id": "274026924",
+    "title": "Warburtons Crumpets 9 Pack",
+    "price": "£1.15",
+    "clubCardPrice": "£1.00",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/3cb84c99-f5f4-4c52-b965-e35e5eee603e/0791765c-491d-44cc-9898-d4ba074cc242.jpeg?h=225&w=225"
+  },
+  {
+    "id": "303351247",
+    "title": "Warburtons 5 Pack Bagels Plain",
+    "price": "£1.85",
+    "clubCardPrice": "£1.25",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/2f0929ce-1a1a-4f6c-a0e5-00254e80ce26/eba14b55-2d15-44a1-8189-01cdb8744b8c.jpeg?h=225&w=225"
+  },
+  {
+    "id": "303351662",
+    "title": "Warburtons 5 Cinnamon & Raisin Bagels",
+    "price": "£1.85",
+    "clubCardPrice": "£1.25",
+    "image": "https://digitalcontent.api.tesco.com/v2/media/ghs/59673115-49cf-4e93-bd96-24a2890d7ba9/402d097f-072d-49ae-bbb2-5145f0df0dc3.jpeg?h=225&w=225"
+  }
+]
