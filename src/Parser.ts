@@ -1,7 +1,7 @@
 import * as cheerio from "cheerio";
 import { Product } from "./Product";
 
-const URL = "https://www.tesco.com/groceries/en-GB/buylists/clubcard-prices";
+const URL = "https://www.tesco.com/groceries/en-GB/shop";
 
 export class Parser {
   private products: Product[] = [];
@@ -20,7 +20,7 @@ export class Parser {
     category: string,
     pageNumber: number
   ): Promise<Product[]> {
-    const url = `${URL}/${category}?page=${pageNumber}`;
+    const url = `${URL}/${category}?page=${pageNumber}&all?viewAll=promotion&promotion=offers`;
     console.log(`Loading ${url}`);
     const $ = await this.loadContent(url);
 
